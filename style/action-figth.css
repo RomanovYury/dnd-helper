@@ -1,0 +1,98 @@
+
+.figth{ 
+
+    border: 1px solid red ;
+
+    padding: 10px;
+    
+   
+}
+
+.figth__box{ 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fight__turn{ 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fight__list{ 
+    list-style-type:decimal;
+    list-style-position: outside;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+
+.fight__member{ 
+    padding-left: 10px;
+
+}
+
+.fight__member--focus{ 
+    font-weight: bold;
+}
+
+  
+
+.figth__action-start , .figth__action-option{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap:0.5rem;
+}
+.fight__member-name{ 
+    text-align: center;
+}
+.fight__member-name p{ 
+    margin: 0;
+    padding: 0;
+}
+
+
+.figth__menu{ 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+
+.fight__btn{ 
+    color : rgb(24, 23, 23) ; 
+    font-weight: bold;
+
+}
+
+.fight__btn--action{ 
+    background-color: burlywood;
+
+}
+.fight__btn--atack{ 
+    background-color: #db3316;
+    
+}
+.fight__btn--health , .fight__btn--start-fight{ 
+    background-color: #16db16;
+}
+.fight__btn--next-step{ 
+}
+
+.figth--invisible{ 
+    display: none;
+}

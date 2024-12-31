@@ -5,8 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DnDHelper</title>
     <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style/action-figth.css">
 </head>
 <body>
-    DND HELPER 
+    <div class="content-section">
+        <div class="container">
+            <div class="action">
+                <div class="action__box">
+                    <div class="action__top">
+                        <h2 class="action__name">
+                            Калькулятор боя 
+                        </h2>
+                    </div>
+                    <div class="action__body">
+                        <div class="figth">
+                            <div class="figth__box">
+                                <div class="fight__turn">
+                                    <ul class="fight__list">
+                                        <li class="fight__member fight__member--focus">Гоблин-Боблин</li>   
+                                        <li class="fight__member">Гоблин-Боблин</li>   
+                                        <li class="fight__member">Гоблин-Боблин</li>   
+                                        <li class="fight__member">Гоблин-Боблин</li>   
+                                    </ul>
+                                </div>
+                                <div class="fight__action">
+                                    <div class="figth__action-option">
+                                        <h3 class="fight__member-name">Настройки боя </h3>
+                                        <div class="figth__menu">
+                                            <button class="btn fight__btn fight__btn--action fight__btn--add-member"> добавить учатсника </button>
+                                        </div>
+                                        <button class="btn fight__btn fight__btn--start-fight"> начать бой </button>
+
+                                    </div>
+
+                                    <div class="figth__action-start figth--invisible">
+                                        
+                                        <h3 class="fight__member-name">Сейчас ходит <p>Гоблин-Боблин</p> </h3>
+                                        <div class="figth__menu">
+                                            <button class="btn fight__btn fight__btn--action fight__btn--atack"> Атака </button>
+                                            <button class="btn fight__btn fight__btn--action fight__btn--health"> Хилл </button>
+                                            
+                                        </div>
+                                        <button class="btn fight__btn fight__btn--action fight__btn--next-step"> Следующий ход </button>
+                                    
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

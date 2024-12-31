@@ -9,9 +9,67 @@
 
 }
 
+.btn{ 
+    text-align: center;
+    padding: 10px;
+
+    
+
+    border:none;
+    border-radius: 3rem;
+
+}
+
+
 body {
     margin: 0;
     padding: 0;
+}
+
+.content-section{ 
+    margin: 0;
+    padding: 0;
+
+}
+
+.action{ 
+    margin: 0;
+    padding: 0;
+
+}
+
+.action__box{ 
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.action__top{ 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+}
+
+.action__name{ 
+    margin: 0;
+    padding: 10px;
+    
+
+}
+
+
+.action__body{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
